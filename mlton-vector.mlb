@@ -4,8 +4,9 @@ $(SML_LIB)/basis/unsafe.mlb
 $(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
 local
   utils.sml
-in
   vector.sig
   vector.fun
+  vector-generic.fun
+in
   vector.mlton.sml
 end

@@ -3,7 +3,7 @@ functor Vector
    sig
      include VECTOR_STRUCTS
      val unsafeSub: 'a t * int -> 'a
-   end): VECTOR =
+   end): MLTON_VECTOR =
 struct
   open S
 

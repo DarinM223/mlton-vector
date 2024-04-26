@@ -7,7 +7,7 @@ sig
   val unfoldi: int * 'b * (int * 'b -> 'a * 'b) -> 'a t * 'b
 end
 
-signature VECTOR =
+signature MLTON_VECTOR =
 sig
   include VECTOR_STRUCTS
 
