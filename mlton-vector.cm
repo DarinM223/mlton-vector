@@ -1,3 +1,9 @@
-Group is
+library
+  structure MLtonVector
+is
   $/basis.cm
-  $/smlnj-lib.cm
+  utils.sml
+  vector.sig
+  vector.fun
+  vector-generic.fun
+  vector.smlnj.sml
