@@ -1,0 +1,11 @@
+$(SML_LIB)/basis/basis.mlb
+$(SML_LIB)/basis/mlton.mlb
+$(SML_LIB)/basis/unsafe.mlb
+$(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
+local
+  utils.sml
+in
+  vector.sig
+  vector.fun
+  vector.mlton.sml
+end
