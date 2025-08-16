@@ -2,3 +2,8 @@ mlton-vector
 run
 MLB/
 .cm/
+*.lua
+*.exe
+*.il
+.smlnetdep/
+.smlnetobj/

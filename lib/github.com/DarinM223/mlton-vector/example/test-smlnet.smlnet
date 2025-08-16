@@ -1,0 +1,5 @@
+@../mlton-vector
+out test-smlnet.exe
+structure Main=test-smlnet.sml
+export Main
+make

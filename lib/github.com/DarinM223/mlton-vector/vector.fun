@@ -13,7 +13,9 @@ struct
     unfoldi (n, a, f o #2)
 
   fun tabulate (n, f) =
-    #1 (unfoldi (n, (), fn (i, ()) => (f i, ())))
+    (* NOTE: Using `0` as parameter instead of `()` because SML.NET has a bug
+       that prevents setting a reference to `()`. So this is a hack until this gets fixed. *)
+    #1 (unfoldi (n, 0, fn (i, x) => (f i, x)))
 
   fun fromArray a =
     tabulate (Array.length a, fn i => Array.sub (a, i))

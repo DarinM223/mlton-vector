@@ -1,0 +1,10 @@
+$(SML_LIB)/basis/basis.mlb
+$(SML_LIB)/basis/unsafe.mlb
+local
+  utils.sml
+  vector.sig
+  vector.fun
+  vector-generic.fun
+in
+  vector.lunarml.sml
+end

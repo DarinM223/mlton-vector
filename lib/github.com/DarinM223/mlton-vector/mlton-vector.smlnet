@@ -1,0 +1,6 @@
+structure Assert=utils.sml, VectorExtra=vector.sml, MLtonVector=vector.sml
+functor Fold=utils.sml, Vector=vector.fun, UnfoldiFromTabulate=vector-generic.fun
+signature FOLD_STRUCTS=utils.sml,
+  FOLD=utils.sml,
+  VECTOR_STRUCTS=vector.sig,
+  MLTON_VECTOR=vector.sig
